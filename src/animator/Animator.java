@@ -7,8 +7,7 @@ public class Animator extends Thread {
         try {
             Thread.sleep(1000);
         } catch (Exception e) {
-            //TODO: handle exception
-            
+            e.printStackTrace();
         }
     }
 

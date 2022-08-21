@@ -28,6 +28,7 @@ public class AppleRecursiveAction {
         * EXECUTE: only arrange tasks, it doesn't wait for them to finish.
         */
         // pool.execute(action);
+        // action.join();
 
         long endTime = System.currentTimeMillis();
         System.out.println("==============================");
